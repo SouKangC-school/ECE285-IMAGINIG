@@ -1,0 +1,22 @@
+{
+  "network": "dvdhr",
+  "noise_type": "unetfourier",
+  "loss": "L1_LP2D",
+  "data": "stills_realvideo",
+  "multiply": "gamma",
+  "space": "linear",
+  "notes": "Oct7angular",
+  "crop_size": "512",
+  "unet_opts": "residualFalse_conv_tconv_selu",
+  "num_iter": 500000,
+  "preloaded": false,
+  "resume_from_checkpoint": "../../work/starlight_denoising_saved_models/saved_data_simulation_supervised/dvdhr_unetfourier_L1_LP2D_stills_realvideo_gamma_linear_Oct7angular",
+  "learning_rate": 0.0001,
+  "batch_size": 1,
+  "nodes": 1,
+  "gpus": 2,
+  "nr": 0,
+  "epochs": 2,
+  "world_size": 2,
+  "fraction_video": 50
+}

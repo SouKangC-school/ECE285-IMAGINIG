@@ -1,0 +1,17 @@
+{
+  "network": "Unet",
+  "noiselist": "shot_read_uniform_row1_rowt_fixed1_periodic",
+  "dataset": "combined",
+  "addfixed": "True_periodic",
+  "generator_loss": "lpips",
+  "discriminator_loss": "fourier",
+  "split_into_patches": "patches_after",
+  "notes": "Aug31",
+  "unet_opts": "residualFalse_conv_tconv_selu",
+  "num_iter": 500000,
+  "device": "cuda:0",
+  "lr": 0.0002,
+  "b1": 0.5,
+  "b2": 0.999,
+  "baseline_model" : "True"
+}
